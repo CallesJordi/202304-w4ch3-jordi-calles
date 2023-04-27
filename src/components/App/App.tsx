@@ -1,5 +1,11 @@
+import Info from "../Info/Info";
+
 const App = (): JSX.Element => {
-  return <p>Hello world!</p>;
+  return (
+    <div className="container">
+      <Info />
+    </div>
+  );
 };
 
 export default App;
